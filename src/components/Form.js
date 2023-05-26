@@ -19,7 +19,10 @@ class Form extends Component {
                     Rating:this.state.Rating};
 
     this.setState({
-        allEntry:[...this.state.allEntry,newEntry]
+        allEntry:[...this.state.allEntry,newEntry],
+          name: "",
+          Department: "",
+          Rating: ""
     })
    
   }
